@@ -56,6 +56,12 @@
     height: 83vh;
     margin-bottom: 0;
   }
+  .project-img {
+    border-radius: 2rem;
+
+    width: 14rem;
+    height: 14rem;
+  }
   article {
     font-size: 1rem;
   }
