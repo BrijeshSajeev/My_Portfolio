@@ -28,7 +28,7 @@
           <span></span>
           <span></span>
         </div>
-        <div class="menu-links">
+        <div class="menu-links" style="z-index: 100;">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -36,7 +36,9 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
+
+
+    <section id="profile" class="hidden">
       <div class="section__pic-container">
         <img src="./assets/Coding-bro.png" alt="Brijesh profile picture" />
       </div>
@@ -71,7 +73,8 @@
         </div>
       </div>
     </section>
-    <section id="about">
+    
+    <section id="about" class="hidden">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -125,7 +128,8 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
+    
+    <section id="experience" class="hidden">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -270,7 +274,8 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
+    
+    <section id="projects" class="hidden">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -356,7 +361,8 @@
         onclick="location.href='./#contact'"
       />
     </section>
-    <section id="contact">
+    
+    <section id="contact" class="hidden">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -388,7 +394,8 @@
         </div>
       </div>
     </section>
-    <footer>
+
+    <footer class="hidden">
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
