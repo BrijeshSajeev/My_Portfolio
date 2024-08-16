@@ -48,10 +48,11 @@
 }
 
 @media screen and (max-width: 600px) {
-  #contact,
-  footer {
-    height: 40vh;
+  #contact{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -73,6 +74,11 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+  }
+  .contact-info-upper-container{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap:0.6rem;
   }
   .contact-info-container {
     margin: 0;
